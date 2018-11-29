@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+  
+    @IBOutlet var textoTeste: UITextView!
+    
+    @IBAction func salvar(){
+        textoTeste.text = "Te amo Gabi!"
+        print("Testando este aplicativo!!")
+    
     }
 
 
