@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     
   
-    @IBOutlet weak var tst: UIActivityIndicatorView!
+    
     @IBOutlet var textoTeste: UITextView!
     
     @IBAction func salvar(){

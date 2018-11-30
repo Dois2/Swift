@@ -32,10 +32,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="qz5-Kf-9Ve">
-                                <rect key="frame" x="164" y="179" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.66666668653488159" green="0.12597608831574181" blue="0.64674673819419481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.26662310398605293" green="0.13768191121150322" blue="0.65587325507614214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,7 +39,6 @@
                     </view>
                     <connections>
                         <outlet property="textoTeste" destination="wnI-lE-Exi" id="Q8q-eA-SzS"/>
-                        <outlet property="tst" destination="qz5-Kf-9Ve" id="ITm-sj-M8U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
