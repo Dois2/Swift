@@ -10,14 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var quantidade_1: UITextField!
+    @IBOutlet weak var porcao_1: UITextField!
+    @IBOutlet weak var porcao_2: UITextField!
+    @IBOutlet weak var quantidade_x: UILabel!
     
   
     
     @IBOutlet var textoTeste: UITextView!
     
-    @IBAction func salvar(){
-        textoTeste.text = "Te amo Gabi!"
-        print("Testando este aplicativo!!")
+    @IBAction func regra_3(){
+        var a = quantidade_1.text
+        var b = porcao_1.text
+        var c = porcao_2.text
+        /*var x = (a * c)/b
+        quantidade_x.text = x*/
     
     }
 
