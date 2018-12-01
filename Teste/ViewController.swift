@@ -15,16 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var porcao_2: UITextField!
     @IBOutlet weak var quantidade_x: UILabel!
     
-  
-    
-    @IBOutlet var textoTeste: UITextView!
-    
     @IBAction func regra_3(){
-        var a = quantidade_1.text
-        var b = porcao_1.text
-        var c = porcao_2.text
-        /*var x = (a * c)/b
-        quantidade_x.text = x*/
+        let a:Double = Double(quantidade_1.text!)!
+        let b:Double = Double(porcao_1.text!)!
+        let c:Double = Double(porcao_2.text!)!
+        let x:Double = (a * c)/b
+        quantidade_x.text = String(format:"%f", x)
     
     }
 
