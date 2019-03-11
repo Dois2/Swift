@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func regra_3(){
-        print("inicio")
         if let a1:Double = Double(quantidade_1!.text!){
             if let b1:Double = Double(porcao_1!.text!){
                 if let b2:Double = Double(porcao_2!.text!){
