@@ -19,17 +19,27 @@ class ViewController: UIViewController {
     
     
     @IBAction func regra_3(){
-        if let a1:Double = Double(quantidade_1!.text!){
-            if let b1:Double = Double(porcao_1!.text!){
-                if let b2:Double = Double(porcao_2!.text!){
-                    let resultado:Double = (a1 * b2)/b1
-                    quantidade_x?.text = String(resultado)
+//        A verificacao abaixo e identica a utilizar o if let a1:Double = Double(quantidade_1?.text) e os demais
+//        if porcao_1 == nil || porcao_2 == nil || quantidade_1 == nil {
+//            return
+//
+//        }
+            if let a1:Double = Double(quantidade_1!.text!){
+            
+                if let b1:Double = Double(porcao_1!.text!){
+                   
+                    if let b2:Double = Double(porcao_2!.text!){
+                    
+                        let resultado:Double = (a1 * b2)/b1
+                        quantidade_x?.text = String(resultado)
+                    }
                 }
             }
-        }
         
         
-    }
+    
 
 }
+}
+
 
