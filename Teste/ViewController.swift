@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 //
         
         
-        A verificacao abaixo e identica a utilizar o if let a1:Double = Double(quantidade_1?.text) e os demais
+//        A verificacao abaixo e identica a utilizar o if let a1:Double = Double(quantidade_1?.text) e os demais
 //        if porcao_1 == nil || porcao_2 == nil || quantidade_1 == nil {
 //            return
 //
