@@ -15,7 +15,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var porcao_2: UITextField?
     @IBOutlet weak var quantidade_x: UILabel?
     
+    @IBOutlet weak var quantidade: UITextField?
+    @IBOutlet weak var quantidade_porcentagem: UITextField?
+    @IBOutlet weak var quantidade_total: UILabel?
+    
 
+    @IBAction func calcular_porcentagem(){
+        if let a1:Double = Double(quantidade!.text!){
+            if var a2:Double = Double(quantidade_porcentagem!.text!){
+                
+                a2 = a2/100
+                let b:Double = a1 * a2
+                let b2:Double = a1 - b
+                quantidade_total?.text = String(b2)
+                
+            }
+        }
+    }
     
     
     @IBAction func regra_3(){
